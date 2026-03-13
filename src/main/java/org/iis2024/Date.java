@@ -16,10 +16,9 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
-    private int fieldAddedByCollaborator;
-  private final int day;
-  private final int month;
-  private final int year;
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
 
   /**
    * Retrieves the day component of this date.
